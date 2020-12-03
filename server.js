@@ -1,9 +1,9 @@
 const http = require("http");
+const products = require("./data/products.json");
 
 const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader("Content-Type", "text/html");
-  res.write("<h1>Home page</h1>");
+  res.writeHead(200, { "Content-Type": "application/json" });
+  res.write(JSON.stringify(products));
   res.end();
 });
 
