@@ -1,6 +1,6 @@
 # No-Frame Node Rest-api
 
-I want to create a simple CRUD REST API in Nodejs without using any framework.
+This is a simple CRUD REST API in Nodejs without using any framework.
 
 ## How to use
 
